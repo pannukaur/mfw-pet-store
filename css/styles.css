@@ -1,0 +1,144 @@
+
+/* .jumbotron{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    color: white;
+
+}
+.text-aligne{
+    text-align: center;
+}
+.col-md-sm-2{
+    border: 1px solid;
+} */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
+
+.logo {
+    width:90px;
+}
+
+header h1 {
+    color:#c9c983;
+    font-family:'satisfy', 'cursive';
+    margin-top:20px;
+}
+
+.nav-pills > li.active > a {
+    color:#5c433f;
+    background-color:#eeddcd;
+}
+.nav-pills > li.active > a:hover,
+.product button:hover,
+footer a:hover {
+    background-color: #eeddcd;
+    color: #5c433f;
+}
+nav li {
+    font-size:15px;
+}
+li a {
+    color: #5c433f;
+    border: 1px solid;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+}
+a:hover {
+    text-decoration: none;
+
+}
+nav{
+    top: 20px;
+}
+.featured{
+    margin-bottom: 60px;
+}
+.product {
+    background-color: #5c433f;
+    border-radius: 5%;
+    border: 1px solid red
+}
+.img_box{
+margin: 10px 10px;
+
+}
+.product button{
+    margin-bottom: 10px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid #5c433f;
+
+}
+aside a,
+footer{
+    background-color: #eeddcd;
+
+}
+.footer{
+    padding-top: 20px;
+    max-height: 100%;
+
+}
+.footer a{
+    color: #5c433f;
+}
+footer img{
+    height: 90px;
+}
+.contact_info {
+    padding-top: 15px;
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333; 
+
+}
+
+.social,
+.contact_info {
+    padding-top: 15px;
+}
+footer .fine_print{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+@media(max-width:760px) {
+    .centered {
+        float: none;
+        margin: 0 auto;
+    }
+    nav {
+         padding-top: 0px;
+         padding-bottom: 10px;
+         top:5px;
+    }
+    .social{
+        margin-top: 20px 10px 0px;
+    }
+        aside {
+            margin-bottom: 60px;
+        }
+    }
+}
+
+
+
+
+
+
+
+.jumbotron {
+    background-image:url('../img/hero.jpg');
+    background-size:cover;
+    background-position:center;
+    height:450px;
+}
+
+.jumbotron h2 {
+    font-family:"open Sans", sans-serif;
+    font-weight:300;
+    color:#fff;
+}
+
+
+
+
